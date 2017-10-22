@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#page1 {
+	    width: 100%;
+		background-color: #22C3AA;
+		display: block;
+	  }
+#page2 {
+	    width: 100%;
+		background-color: #22C3AA;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+}
+#page3 {
+	    width: 100%;
+		background-color: #22C3AA;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+}
+#page4 {
+	    width: 100%;
+		background-color: #22C3AA;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+}
+
+#dianji li {
+	    list-style: none;
+}
+#dianji li a {
+	    
+		display: inline-block;
+        float: left;
+	    width: 20px;
+	    height: 20px;
+	    border-radius: 10px;
+	    background-color: white;
+}
+#dianji #one a {
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 15px;
+	    background-color: #333333;
+}
+
+#one {
+		position: absolute;
+	    top: 90%;
+	    left: 35%;
+		z-index: 1;
+}
+
+#two {
+		position: absolute;
+	    top: 90%;
+	    left: 45%;
+		z-index: 1;
+}
+#three {
+		position: absolute;
+	    top: 90%;
+		left: 55%;
+		z-index: 1;
+	    
+}
+#four {
+		position: absolute;
+	    top: 90%;
+		left: 65%;
+		z-index: 1;
+	    
+}
+#dianji li {
+	    text-align: center;
+}
+#page1 img {
+	    width: 200px;
+	    position: absolute;
+	    top: 30%;
+		left: 20%;
+
+}
+#page1 .shuoming {
+	    position: absolute;
+	    top: 30%;
+		left: 45%;
+}
+#page1 .shuoming h1 {
+	    font-family: sans-serif;
+	    font-size: 4em;
+	    color: #EEF3F0;
+		text-shadow: 2.5px 2.5px 1px white;
+		padding-left: 15%;
+	
+}
+#page1 .shuoming p {
+	    font-family: sans-serif;
+	    color: #EEF3F0;
+		padding-top:10%;
+		padding-left: 20%;
+}
+#page1 .shuoming h3 {
+	    font-family: sans-serif;
+	    color: #EEF3F0;
+		padding-top:10%;
+		font-size: 2em;
+}
+#page2 #xiangmu1 {
+	    width: 40%;
+	    position: absolute;
+		top: 30%;
+		left: 10%;
+}
+#page2 #xiangmu1 img {
+	    width: 20%;
+		float: left;
+}
+#page2 #xiangmu1 a {
+	    float: left;
+		padding: 6%;
+}
+#page2 #xiangmu2 {
+	    width: 40%;
+	    position: absolute;
+		top: 55%;
+		left: 10%;
+}
+#page2 #xiangmu2 img {
+	    width: 20%;
+		float: left;
+}
+#page2 #xiangmu2 a {
+	    float: left;
+		padding: 10%;
+}
+#page2 #xiangmu3 {
+	    width: 40%;
+	    position: absolute;
+		top: 30%;
+		left: 60%;
+}
+#page2 #xiangmu3 img {
+	    width: 20%;
+		float: left;
+}
+#page2 #xiangmu3 a {
+	    float: left;
+		padding: 6%;
+}
+
+#page2>h1 {
+	    font-family: sans-serif;
+	    font-size: 4em;
+	    color: #EEF3F0;
+		text-shadow: 2.5px 2.5px 1px white;
+		position: absolute;
+		top: 15%;
+		left: 42%;
+}
+#page2>a {
+	    font-family: sans-serif;
+		position: absolute;
+		top: 80%;
+		left: 45%;
+}
+#page2>a span {
+	    font-size: 2em;
+		color: green;
+}
+#page2>a:link, a:visited ,a:active  {
+	    color: #008A75;
+        text-decoration: none;	
+}
+#page2>a:hover  {
+	    color: green; 
+		text-decoration: none;
+}
+#page2 #xiangmu1 a:link, a:visited ,a:active  {
+	    color: #008A75;
+        text-decoration: none;	
+}
+#page2 #xiangmu1 a:hover  {
+	    color: green; 
+		text-decoration: none;
+}
+#page2 #xiangmu2 a:link, a:visited ,a:active  {
+	    color: #008A75;
+        text-decoration: none;	
+}
+#page2 #xiangmu2 a:hover  {
+	    color: green; 
+		text-decoration: none;
+}
+#page2 #xiangmu3 a:link, a:visited ,a:active  {
+	    color: #008A75;
+        text-decoration: none;	
+}
+#page2 #xiangmu3 a:hover  {
+	    color: green; 
+		text-decoration: none;
+}
+#page3>h1 {
+	    font-family: sans-serif;
+	    font-size: 4em;
+	    color: #EEF3F0;
+		text-shadow: 2.5px 2.5px 1px white;
+		position: absolute;
+		top: 15%;
+		left: 42%;
+}
+#page3 #jishu1 {
+	    width: 40%;
+	    position: absolute;
+		top: 35%;
+		left: 30%; 
+}
+#page3 #jishu1 ul {
+	    width: 100%;
+	    position: absolute;
+		top: 0;
+		left: 40%; 
+}
+#page3 #jishu1 ul li {
+	    float: left;
+        list-style: none;
+        margin-left: 10%;
+		margin-top: 1%;
+		padding: 1%;
+        background-color: #0F7A6A;
+        border-radius: 5px;		
+}
+#page3 #jishu2 {
+	    width: 40%;
+	    position: absolute;
+		top: 50%;
+		left: 30%; 
+}
+#page3 #jishu2 ul {
+	    width: 100%;
+	    position: absolute;
+		top: 0;
+		left: 40%; 
+}
+#page3 #jishu2 ul li {
+	    float: left;
+        list-style: none;
+        margin-left: 10%;
+		margin-top: 1%;
+		padding: 1%;
+        background-color: #0F7A6A;
+        border-radius: 5px;		
+}
+#page3 #jishu3 {
+	    width: 40%;
+	    position: absolute;
+		top: 65%;
+		left: 30%; 
+}
+#page3 #jishu3 ul {
+	    width: 100%;
+	    position: absolute;
+		top: 0;
+		left: 40%; 
+}
+#page3 #jishu3 ul li {
+	    float: left;
+        list-style: none;
+        margin-left: 10%;
+		margin-top: 1%;
+		padding: 1%;
+        background-color: #0F7A6A;
+        border-radius: 5px; 		
+}
+#page3 {
+	    color: #EEF3F0; 
+}
+
+#page4>h1 {
+	    font-family: sans-serif;
+	    font-size: 4em;
+	    color: #EEF3F0;
+		text-shadow: 2.5px 2.5px 1px white;
+		position: absolute;
+		top: 15%;
+		left: 42%;
+}
+#page4 h3 {
+	    font-family: sans-serif;
+	    color: #EEF3F0;
+		font-size: 2em;
+		position: absolute;
+		top: 40%;
+		left: 42%;
+}
+#page4 p {
+	    font-family: sans-serif;
+		font-size: 1.5em;
+	    color: #AEE2CE;
+		position: absolute;
+		top: 50%;
+		left: 40%;
+}
+
